@@ -33,12 +33,14 @@
     "controllers"
   ],
   "dependencies": {
-    "class-transformer": ">=0.2.0",
-    "class-validator": ">=0.9.1",
     "cookie": "^0.3.1",
     "glob": "^7.0.5",
     "reflect-metadata": "^0.1.13",
     "template-url": "^1.0.0"
+  },
+  "peerDependencies": {
+    "class-transformer": ">=0.2.0",
+    "class-validator": ">=0.9.1",
   },
   "devDependencies": {
     "@types/chai": "^3.4.35",
@@ -53,6 +55,8 @@
     "chai": "^3.4.1",
     "chai-as-promised": "^6.0.0",
     "chakram": "^1.4.0",
+    "class-transformer": ">=0.2.0",
+    "class-validator": ">=0.9.1",
     "cors": "^2.8.3",
     "cross-env": "5.0.5",
     "del": "^2.2.1",
